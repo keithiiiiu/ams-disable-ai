@@ -1,0 +1,14 @@
+/* Hide b_topw on top of the page */
+#b_topw{
+    display: none;
+}
+
+/* Hide AI Mode search bar button on results pages */
+#b-scopeListItem-copilotsearch {
+    display: none;
+}
+
+/* Hide the Shopping button */
+#b-scopeListItem-shop {
+    display: none;
+}
