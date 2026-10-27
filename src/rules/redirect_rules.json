@@ -42,89 +42,23 @@
       }
     },
     {
-        "id": 4,
-        "priority": 2,
-        "action": {
-          "type": "redirect",
-          "redirect": {
-              "transform": {
-                  "queryTransform": {
-                      "addOrReplaceParams": [
-                        { "key": "assist", "value": "false" },
-                        { "key": "kbe", "value": "0" },
-                        { "key": "kbg", "value": "-1" },
-                        { "key": "kbj", "value": "1" }
-                      ]
-                  }
-              }
-          }
-        },
-        "condition": {
-          "urlFilter": "https://duckduckgo.com/^",
-          "resourceTypes": ["main_frame"]
+      "id": 4,
+      "priority": 4,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+            "transform": {
+                "queryTransform": {
+                    "addOrReplaceParams": [
+                      { "key": "noAI", "value": "1" }
+                    ]
+                }
+            }
         }
       },
-      {
-        "id": 5,
-        "priority": 3,
-        "action": {
-          "type": "redirect",
-          "redirect": {
-              "transform": {
-                  "queryTransform": {
-                      "addOrReplaceParams": [
-                        { "key": "assist", "value": "false" },
-                        { "key": "kbe", "value": "0" },
-                        { "key": "kbg", "value": "-1" },
-                        { "key": "kbj", "value": "1" }
-                      ]
-                  }
-              }
-          }
-        },
-        "condition": {
-          "urlFilter": "https://duckduckgo.com/*q=*",
-          "resourceTypes": ["main_frame"]
-        }
-      },
-      {
-        "id": 6,
-        "priority": 1,
-        "action": {
-          "type": "redirect",
-          "redirect": {
-              "transform": {
-                  "queryTransform": {
-                      "addOrReplaceParams": [
-                        { "key": "summary", "value": "0" }
-                      ]
-                  }
-              }
-          }
-        },
-        "condition": {
-          "urlFilter": "||search.brave.com/search",
-          "resourceTypes": ["main_frame"]
-        }
-      },
-      {
-        "id": 7,
-        "priority": 1,
-        "action": {
-          "type": "redirect",
-          "redirect": {
-              "transform": {
-                  "queryTransform": {
-                      "addOrReplaceParams": [
-                        { "key": "llm", "value": "0" }
-                      ]
-                  }
-              }
-          }
-        },
-        "condition": {
-          "urlFilter": "||www.qwant.com/*",
-          "resourceTypes": ["main_frame"]
-        }
+      "condition": {
+        "urlFilter": "||www.bing.com/search*",
+        "resourceTypes": ["main_frame"]
       }
+    }
   ]

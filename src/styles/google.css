@@ -3,7 +3,57 @@ form[role="search"] button[role="link"] {
     display: none;
 }
 
+/* Hide "I'm Feeling Lucky" button on homepage */
+input[value="I'm Feeling Lucky"], input[value="J'ai de la chance"] {
+    display: none !important;
+}
+
+/* Hide "Search by voice" button on homepage */
+div[aria-label="Search by voice"], div[aria-label="Utiliser la recherche vocale"] {
+    display: none !important;
+}
+
+/* Hide Store link on homepage */
+a[href*="store.google.com"] {
+    display: none !important;
+}
+
+
 /* Hide AI Mode search bar button on results pages */
 div[role="navigation"] div[role="listitem"]:has( a[href*="&udm=50"] ) {
     display: none;
 }
+
+
+/* Hide Shopping bar button on results pages */
+div[role="navigation"] div[role="listitem"]:has( a[href*="&udm=28"] ) {
+    display: none;
+}
+
+
+/* Hide Videos bar button on results pages */
+div[role="navigation"] div[role="listitem"]:has( a[href*="&udm=vids"] ) {
+    display: none;
+}
+
+/* Hide Short Video bar button on results pages */
+div[role="navigation"] div[role="listitem"]:has( a[href*="&udm=short_vids"] ) {
+    display: none;
+}
+
+/* Hide Forums bar button on results pages */
+div[role="navigation"] div[role="listitem"]:has( a[href*="&udm=forums"] ) {
+    display: none;
+}
+
+/* Hide Finance bar button on results pages */
+div[role="navigation"] div[role="listitem"]:has( a[href*="/finance"] ) {
+    display: none;
+}
+
+/* Hide flights bar button on results pages */
+div[role="navigation"] div[role="listitem"]:has( a[href*="/flights"] ) {
+    display: none;
+}
+
+

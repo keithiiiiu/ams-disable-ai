@@ -1,14 +1,96 @@
-/* Hide b_topw on top of the page */
+/************ Bing search result page ************/
+
+/* Hide b_topw (AI Overview / other stuff) on top of the page */
 #b_topw{
-    display: none;
+    display: none !important;
 }
+
+/* Hide b_pole on top of the page */
+#b_pole{
+    display: none !important;
+}
+
+/* Hide video answer on the page */
+li.b_vidAns{
+    display: none !important;
+}
+
+/* Hide ask a follow-up at the bottom of the page */
+#b_bop_cs_sb_place{
+    display: none !important;
+}
+
+/* Hide Microsoft Reward at the top of the page */
+#id_rh_w{
+    display: none !important;
+}
+
+/* Hide voice search button */
+div.mic_cont.icon.partner{
+    display: none !important;
+}
+
 
 /* Hide AI Mode search bar button on results pages */
 #b-scopeListItem-copilotsearch {
-    display: none;
+    display: none !important;
 }
 
 /* Hide the Shopping button */
 #b-scopeListItem-shop {
-    display: none;
+    display: none !important;
 }
+
+/* Hide the Videos button */
+#b-scopeListItem-video {
+    display: none !important;
+}
+
+/* Hide the Flights button */
+#b-scopeListItem-flights {
+    display: none !important;
+}
+
+/* Hide the Create button under Images*/
+#imgcrtr_key {
+    display: none !important;
+}
+
+/* Hide AI summary*/
+/* https://www.bing.com/search?q=train+histoy */
+/* https://www.bing.com/search?q=iphone%20hhistory */
+li.b_ans.b_top.b_topborder.b_qnacdxcont{
+    display: none !important;
+}
+
+
+
+
+
+/************ Bing main page ************/
+
+/* Hide voice search button */
+#sb_mic_island{
+    display: none !important;
+}
+
+/* Hide ai tools (image creator / text creator) button */
+#aitools_island{
+    display: none !important;
+}
+
+/* Hide the feed at the bottom */
+div.bottom_row.widget.msnpeek.nomvs{
+    display: none !important;
+}
+
+/* Hide nav bar on top left */
+nav.scope_cont{
+    display: none !important;
+}
+
+/* Hide ID bar on top right */
+#id_container{
+    display: none !important;
+}
+
