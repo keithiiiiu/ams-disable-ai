@@ -6,8 +6,8 @@
         "type": "block"
       },
       "condition": {
-        "urlFilter": "||api.ecosia.org/v2/aie-exa-proxy*",
-        "resourceTypes": [ "main_frame", "xmlhttprequest" ]
+        "urlFilter": "||www.google.com/search*udm=50*",
+        "resourceTypes": [ "main_frame" ]
       }
     }
 ]
