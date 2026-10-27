@@ -3,4 +3,7 @@ li.search-ai-overview{
     display: none !important;
 }
 
-
+/* Hide Britannica AI tab */
+#search-tab-ai{
+    display: none !important;
+}
