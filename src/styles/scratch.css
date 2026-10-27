@@ -1,0 +1,30 @@
+/* Hide search bar in top nav */
+nav li.search form input, nav li.search form button{
+    display: none !important;
+}
+
+/* Hide Explore link in top nav */
+nav li.explore{
+    display: none !important;
+}
+
+
+
+/* Hide Featured Projects, Featured Studios, Scratch Design Studio - What’s the Rush? in the main page */
+div.inner.mod-splash{
+    display: none !important;
+}
+
+
+
+/************ after login page***********/
+
+/* Hide search bar in top nav */
+div[id=topnav] form.search input{
+    display: none !important;
+}
+
+/* Hide Explore link in top nav */
+ul.site-nav li:has( a[href*="/explore"] ){
+    display: none !important;  
+}
