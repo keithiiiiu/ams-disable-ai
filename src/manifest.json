@@ -1,6 +1,6 @@
 {
   "name": "AMS",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "manifest_version": 3,
   "author": "AMS",
   "description": "AMS",
@@ -46,6 +46,11 @@
       "matches": [ "https://www.google.com/search*"],
       "css": [ "styles/google.css" ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [ "https://*.britannica.com/*" ],
+      "css": [ "styles/britannica.css" ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -56,6 +61,10 @@
     {
       "resources": [ "styles/google.css"],
       "matches": [ "https://www.google.com/*"]
+    },
+    {
+      "resources": [ "styles/britannica.css"],
+      "matches": [ "https://www.britannica.com/*"]
     }
   ],
   "permissions": [
@@ -64,7 +73,8 @@
   ],
   "host_permissions": [
     "*://*.bing.com/*",
-    "*://*.google.com/*"
+    "*://*.google.com/*",
+    "*://*.britannica.com/*"
   ],
   "icons": {
     "16": "icons/icon_16.png",

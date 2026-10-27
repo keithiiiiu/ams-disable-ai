@@ -1,0 +1,6 @@
+/* Hide Britannica AI in results */
+li.search-ai-overview{
+    display: none !important;
+}
+
+
