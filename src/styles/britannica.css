@@ -7,3 +7,9 @@ li.search-ai-overview{
 #search-tab-ai{
     display: none !important;
 }
+
+/* Hide Ask the Chatbot tab in main page*/
+a.category-link-CHATBOT{
+    display: none !important;
+
+}
