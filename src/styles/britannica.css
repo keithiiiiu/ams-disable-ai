@@ -13,3 +13,11 @@ a.category-link-CHATBOT{
     display: none !important;
 
 }
+
+/* Hide Britannica AI in conten page*/
+div.header-topic-britannica-ai-module{
+    display: none !important;
+}
+div.toc-sticky-header-ai-container{
+    display: none !important;
+}

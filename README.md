@@ -6,3 +6,4 @@ This is a browser extension to disable AI and some other features on Bing and Go
 1.0.6 - Hide Ask the Chatbot tab in Britannica main page
 1.1.0 - Added Scratch
 1.2.0 - Auto close Edge Update completed tab
+1.2.1 - Hide more Britannica AI elements
